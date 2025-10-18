@@ -1,4 +1,3 @@
-
 # Staff Officer Portal
 
 This is a production-ready Single Page Application called **Staff Officer Portal** (React + TypeScript + Vite + Tailwind) with a Supabase backend (Auth, Postgres, Realtime) and Firebase Hosting.
@@ -48,7 +47,7 @@ cp .env.example .env
 nano .env
 
 # 5. Install dependencies
-npm ci
+npm install
 
 # 6. Build the application for production
 npm run build

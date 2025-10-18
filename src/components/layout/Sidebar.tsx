@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import { NavLink, useLocation } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { LayoutDashboard, Users, MessageSquare, BookA, Shield, History, Ship, Contact } from 'lucide-react';
 import { useAuth } from '../../hooks/useAuth';
 
@@ -9,8 +9,6 @@ interface SidebarProps {
 }
 
 const Sidebar: React.FC<SidebarProps> = ({ sidebarOpen, setSidebarOpen }) => {
-  const location = useLocation();
-  const { pathname } = location;
   const { isSuperAdmin } = useAuth();
   
   const trigger = useRef<HTMLButtonElement>(null);

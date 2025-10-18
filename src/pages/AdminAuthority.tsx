@@ -2,8 +2,8 @@ import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { supabase } from '../lib/supabaseClient';
 import { useAuth } from '../hooks/useAuth';
 import toast from 'react-hot-toast';
-import { format, formatDistanceToNow } from 'date-fns';
-import { PlusCircle, Edit, Trash2, Search, UserCheck, Clock, Check, Shield, Link2, X } from 'lucide-react';
+import { formatDistanceToNow } from 'date-fns';
+import { PlusCircle, Edit, Trash2, Search, UserCheck, Clock, Link2, X } from 'lucide-react';
 
 import Card from '../components/ui/Card';
 import Button from '../components/ui/Button';

@@ -1,6 +1,5 @@
-
 import React, { useState, useRef, useEffect } from 'react';
-import { Menu, Sun, Moon, LogOut, User as UserIcon } from 'lucide-react';
+import { Menu, Sun, Moon, LogOut } from 'lucide-react';
 import { useUIStore } from '../../store/uiStore';
 import { useAuth } from '../../hooks/useAuth';
 import { supabase } from '../../lib/supabaseClient';
