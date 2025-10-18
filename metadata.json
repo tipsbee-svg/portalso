@@ -1,0 +1,5 @@
+{
+  "name": "Staff Officer Portal",
+  "description": "A secure, real-time communication and information portal for staff officers, built on Supabase and Firebase. Features include real-time chat, a personnel directory, abbreviation management, and an admin approval system, all designed to run on free-tier services.",
+  "requestFramePermissions": []
+}
